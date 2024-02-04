@@ -1,0 +1,49 @@
+
+body {
+    text-align: center;
+    background-image: url('rev-1-BARBIE-TP-0002_High_Res_JPEG.webp');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-color: rgb(226, 169, 226);
+}
+
+img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#logo{
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+h1{
+    color: white;
+    text-shadow: 2px 2px palevioletred;
+}
+p{
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+button{
+    color: white;
+    background-color: palevioletred;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-color: white;
+    
+}
+
+button:hover {
+    background-color: white; 
+    color: pink;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
